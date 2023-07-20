@@ -1,0 +1,162 @@
+[
+ {
+  "type": "Nominee",
+  "award_name": "Oscar",
+  "award": "Best Achievement in Cinematography"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "BAFTA Film Award",
+  "award": "Best Production Design"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Saturn Award",
+  "award": "Best Fantasy Film"
+ },
+ {
+  "type": "Winner",
+  "award_name": "Special Award",
+  "award": "For"
+ },
+ {
+  "type": "Winner",
+  "award_name": "Contribution to Cinematic Imagery Award",
+  "award": ""
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Excellence in Production Design Award",
+  "award": "Fantasy Film"
+ },
+ {
+  "type": "Winner",
+  "award_name": "ASCAP Award",
+  "award": "Top Box Office Films"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "ACCA",
+  "award": "Best Visual Effects"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Best Cinematography Award",
+  "award": ""
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Critics Choice Award",
+  "award": "Favorite Film Franchise"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Gold Derby Award",
+  "award": "Visual Effects"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Grammy",
+  "award": "Best Score Soundtrack Album for a Motion Picture, Television or Other Visual Media"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Film Award",
+  "award": "Best Supporting Voice Actress"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "IFTA Award",
+  "award": "Best Actor in a Supporting Role in a Film"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Golden Reel Award",
+  "award": "Best Sound Editing - Foreign Feature"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Golden Reel Award",
+  "award": "Best Sound Editing - Sound Effects, Foley, Dialogue and ADR in a Foreign Feature Film"
+ },
+ {
+  "type": "Winner",
+  "award_name": "MTV Movie Award",
+  "award": "Best Villain"
+ },
+ {
+  "type": "Winner",
+  "award_name": "National Movie Award",
+  "award": "Best Family Film"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "OFTA Film Award",
+  "award": "Best Production Design"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "People's Choice Award",
+  "award": "Favorite Move Fan Following"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "People's Choice Award",
+  "award": "Favorite Movie"
+ },
+ {
+  "type": "Winner",
+  "award_name": "PFCS Award",
+  "award": "Best Live Action Family Film"
+ },
+ {
+  "type": "Winner",
+  "award_name": "Rembrandt Award",
+  "award": "Best DVD Release (Beste DVD uitbreng)"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Rondo Statuette",
+  "award": "Best Film"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Georges Award",
+  "award": "Best Foreign Action Movie"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Satellite Award",
+  "award": "Best Youth DVD"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Satellite Award",
+  "award": "Best Motion Picture, Animated or Mixed Media"
+ },
+ {
+  "type": "Winner",
+  "award_name": "Scream Award",
+  "award": "Best Ensemble"
+ },
+ {
+  "type": "Winner",
+  "award_name": "SFX Award",
+  "award": "Best Film"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Teen Choice Award",
+  "award": "Choice Movie Actress: Fantasy"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "VES Award",
+  "award": "Outstanding Matte Paintings in a Feature Motion Picture"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Young Artist Award",
+  "award": "Best Performance in a Feature Film - Supporting Young Actress"
+ }
+]

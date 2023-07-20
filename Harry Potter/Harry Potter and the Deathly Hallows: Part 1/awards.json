@@ -1,0 +1,192 @@
+[
+ {
+  "type": "Nominee",
+  "award_name": "Oscar",
+  "award": "Best Achievement in Visual Effects"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "BAFTA Film Award",
+  "award": "Best Make Up & Hair"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Saturn Award",
+  "award": "Best Costume"
+ },
+ {
+  "type": "Winner",
+  "award_name": "Special Award",
+  "award": "For"
+ },
+ {
+  "type": "Winner",
+  "award_name": "Contribution to Cinematic Imagery Award",
+  "award": ""
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Excellence in Production Design Award",
+  "award": "Fantasy Film"
+ },
+ {
+  "type": "Winner",
+  "award_name": "Honorable Mentions (The Next Ten Best Picture Contenders)",
+  "award": "Honorable Mentions"
+ },
+ {
+  "type": "Winner",
+  "award_name": "BAA",
+  "award": "Best Film/TV Graphics"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Critics Choice Award",
+  "award": "Favorite Film Franchise"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Critics Choice Award",
+  "award": "Best Makeup"
+ },
+ {
+  "type": "Winner",
+  "award_name": "Empire Award",
+  "award": "Best Sci-Fi/Fantasy"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Gold Derby Award",
+  "award": "Visual Effects"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Golden Schmoes",
+  "award": "Best Sci-Fi Movie of the Year"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "HPA Awards",
+  "award": "Outstanding Compositing - Feature Film"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "HFCS Award",
+  "award": "Best Cinematography"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Hugo",
+  "award": "Best Dramatic Presentation - Long Form"
+ },
+ {
+  "type": "Winner",
+  "award_name": "IGN Award",
+  "award": "Best Fantasy Movie"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "IFMCA Award",
+  "award": "Best Original Score for a Fantasy/Science Fiction/Horror Film"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "INOCA",
+  "award": "Best Visual Effects"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Blimp Award",
+  "award": "Favorite Movie Actress"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Sierra Award",
+  "award": "Best Family Film"
+ },
+ {
+  "type": "Winner",
+  "award_name": "Max Movie Award",
+  "award": "Best Trailer"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Golden Reel Award",
+  "award": "Best Sound Editing - Music in a Feature Film"
+ },
+ {
+  "type": "Winner",
+  "award_name": "MTV Movie Award",
+  "award": "Best Villain"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "National Movie Award",
+  "award": "Performance of the Year"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "OFTA Film Award",
+  "award": "Best Makeup and Hairstyling"
+ },
+ {
+  "type": "Winner",
+  "award_name": "Distinguished Artist Award",
+  "award": ""
+ },
+ {
+  "type": "Nominee",
+  "award_name": "People's Choice Award",
+  "award": "Favorite Move Fan Following"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "PFCS Award",
+  "award": "Best Cinematography"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Georges Award",
+  "award": "Best Foreign Action Movie"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "SDFCS Award",
+  "award": "Best Cinematography"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Satellite Award",
+  "award": "Best Youth DVD"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "Satellite Award",
+  "award": "Best Cinematography"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "SLFCA Award",
+  "award": "Best Visual Effects"
+ },
+ {
+  "type": "Winner",
+  "award_name": "Teen Choice Award",
+  "award": "Choice Movie: Sci-Fi/Fantasy"
+ },
+ {
+  "type": "Winner",
+  "award_name": "VES Award",
+  "award": "Outstanding Animated Character in a Live Action Feature Motion Picture"
+ },
+ {
+  "type": "Nominee",
+  "award_name": "WAFCA Award",
+  "award": "Best Art Direction"
+ },
+ {
+  "type": "Winner",
+  "award_name": "World Soundtrack Award",
+  "award": "Soundtrack Composer of the Year"
+ }
+]
