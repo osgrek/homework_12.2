@@ -1,8 +1,6 @@
 import os
 import shutil
-from pprint import pprint
 from string import ascii_uppercase
-from json import dumps
 from hp_titles import films_titles
 from hp_awards import films_awards
 
@@ -21,8 +19,8 @@ for film_name in films_titles["results"]:
     os.mkdir(film_name["title"])
 
     # Step 2
-    # for letter in ascii_uppercase:
-    #     os.mkdir(f"{film_name['title']}/Folder_{letter}")
+    for letter in ascii_uppercase:
+        os.mkdir(f"{film_name['title']}/Folder_{letter}")
 
     # Step 3
     film_awards = []
@@ -36,10 +34,18 @@ for film_name in films_titles["results"]:
                     }
                 film_awards.append(film_award)
 
-            result = f"{film_name['title']}/awards.json"
-            result_obj = open(result, "w")
-            result_list = dumps(film_awards, indent=1)
-            result_obj.write(result_list)
-            result_obj.close()
+            # Step 4
+            film_awards_sorted = sorted(film_awards, key=lambda award: award['award_name'])
 
-    pprint(film_awards)
+            # Step 5
+            for event in film_awards_sorted:
+                txt_file = f"{film_name['title']}/Folder_{event['award_name'][0].upper()}/{event['award_name']}.txt"
+                txt_obj = open(txt_file, "w")
+                txt_obj.close()
+
+            # Step 6
+            for event in film_awards_sorted:
+                txt_file = f"{film_name['title']}/Folder_{event['award_name'][0].upper()}/{event['award_name']}.txt"
+                txt_obj = open(txt_file, "a")
+                txt_obj.write(f"{event['award']}\n")
+                txt_obj.close()
