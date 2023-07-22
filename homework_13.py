@@ -26,18 +26,20 @@ for genre in ganres_dict["results"]:
     csv_file_path = f"{genre['genre']}/films.csv"
     with open(csv_file_path, "w") as file_obj:
         csv_file = csv.writer(file_obj)
-        csv_file.writerow(["title", "year", "rating", "type", "genres"])
+        csv_file.writerow(["title", "year", "rating", "type", "ganres"])
 
 # Step 4
 for film in films_data:
-    for film_gen in film["gen"]:
+    film_genres = ""
 
+    for film_gen in film["gen"]:
+        films_info = []
+        film_genres += film_gen['genre'] + "; "
+
+    for film_gen in film["gen"]:
         csv_file_path = f"{film_gen['genre']}/films.csv"
         with open(csv_file_path, "a", newline="") as file_obj:
-            headers = ["title", "year", "rating", "type", "genres"]
+            headers = ["title", "year", "rating", "type", "gen"]
             csv_file = csv.DictWriter(file_obj, fieldnames=headers, extrasaction="ignore")
+            film["gen"] = film_genres
             csv_file.writerow(film)
-            csv_file.writerow({"genres": film_gen['genre']})
-
-# pprint(type(ganres_dict))
-# pprint(ganres_dict)
