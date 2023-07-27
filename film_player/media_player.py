@@ -13,9 +13,7 @@ class Player:
             os.chdir(f"Season {self.season_num}")
             try:
                 os.chdir(f"Episode {self.episode_num}")
-                file_name = os.listdir()[0]
-                episode_title = file_name.replace('.txt', '')
-                self.episode_title: str = episode_title
+                self.episode_title: str = os.listdir()[0].replace('.txt', '')
             except FileNotFoundError:
                 print(f"There is no Episode {self.episode_num} yet")
         except FileNotFoundError:
