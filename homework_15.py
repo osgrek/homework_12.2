@@ -1,14 +1,17 @@
 from film_player import media_player as m_p
 
 # Step 4
-player_netflix = m_p.Player()
+# Instantiation
+season_num = int(input("Enter a Season number you want to watch (1 - 5): "))
+episode_num = int(input("Enter a Episode number you want to watch (1 - 7): "))
+player_netflix = m_p.Player(season_num, episode_num)
 
-# Volume
-player_netflix.episode_title = "A Matter of Pact"
-player_netflix.volume_level(50)
+# Method Play()
+player_netflix.play()
+decision = input("\nPress y:")
+if decision == "y":
 
-# Play
-season_number = input(f"Enter a Season number you want to watch: ")
-episode_number = input(f"Enter a Episode number you want to watch: ")
-
-player_netflix.play(season_number)
+    # Method Volume()
+    player_netflix.volume_level(int(input("\nSelect volume level: ")))
+else:
+    print("Ok. Maybe next time")

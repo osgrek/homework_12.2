@@ -1,34 +1,34 @@
 import os
+
+
 # Step 3
 class Player:
     series_title: str = "Too hot Too Handle"
-    season_num: int
-    episode_title: str
-    description: str
 
-    def volume_level(self, vol_level=100):
-        print(f"You are watching {self.episode_title} at volume:{vol_level}")
-
-    def play(self, season_number=1, episode_number=1):
+    def __init__(self, season_num=1, episode_num=1):
+        self.season_num: int = season_num
+        self.episode_num: int = episode_num
         os.chdir("Too Hot Too Handle")
         try:
-            os.chdir(f"Season {season_number}")
+            os.chdir(f"Season {self.season_num}")
             try:
-                episode = f"Season {season_number}"
+                os.chdir(f"Episode {self.episode_num}")
+                file_name = os.listdir()[0]
+                episode_title = file_name.replace('.txt', '')
+                self.episode_title: str = episode_title
+            except FileNotFoundError:
+                print(f"There is no Episode {self.episode_num} yet")
+        except FileNotFoundError:
+            print(f"There is no Season {self.season_num} yet")
 
-                print(f"You are now watching Season {season_number}")
+    # Method Play()
+    def play(self):
+        print(f"Do you want to watch \n\n"
+              f"{self.series_title} series \n"
+              f"{self.episode_title}?")
 
-
-        except:
-            print(f"There is no Season {season_number} yet")
-
-
-
-    def playback_speed(self):
-        pass
-
-    def screen_mode(self):
-        pass
-
-
-print(os.getcwd())
+    # Method Volume()
+    def volume_level(self, vol_level=100):
+        print(f"\nYou are now watching {self.episode_title}\n"
+              f"at volume:{vol_level}\n"
+              f"Even if you don't see and dont hear it")
